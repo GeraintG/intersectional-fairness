@@ -1,0 +1,48 @@
+# Default configuration for the project
+
+# General settings
+general:
+  random_seed: 42
+  output_dir: results
+
+# Data settings
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  generated_dir: data/generated
+
+# Model settings
+model:
+  type: mlp
+  hidden_layers: [128, 64]
+  dropout: 0.2
+
+# Training settings
+training:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+
+# Fairness settings
+fairness:
+  lambda: 0.1
+  sensitive_attributes: []
+  fairness_metric: demographic_parity
+
+# Causal settings
+causal:
+  graph_type: linear
+  interventions: []
+
+
+# GPT
+  general:
+  output_dir: outputs/df_model
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 20
+
+fairness:
+  lambda: 0.5

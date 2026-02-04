@@ -1,0 +1,18 @@
+name: intersectional_fairness
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pytorch
+  - torchvision
+  - pyyaml
+  - pip:
+    - xgboost
+    - category_encoders
+    - causalml
