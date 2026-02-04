@@ -1,6 +1,6 @@
 # Intersectional Fairness Project
 
-This project aims to explore and implement methods for achieving intersectional fairness in machine learning models.
+This project aims to explore and implement methods for achieving intersectional fairness in machine learning models, and still updating now.
 
 ## Directory Structure
 
@@ -28,7 +28,8 @@ This project aims to explore and implement methods for achieving intersectional 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Haoyang Gui
+Dr.Haileleol Tibebu
 
 ## License
 
